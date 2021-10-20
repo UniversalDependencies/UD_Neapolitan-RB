@@ -10,5 +10,5 @@
 7	la	_	DET	_	_	8	det	_	_
 8	amica	_	NOUN	_	_	3	obl	_	_
 9	sojă	_	ADJ	_	_	8	amod	_	_
-10	.	_	PUNCT	_	_	3	punct	_	_
+10	.	_	PUNCT	_	_	3	punct	_	_SpaceAfter=No
 
