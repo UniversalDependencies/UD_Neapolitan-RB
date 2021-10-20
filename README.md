@@ -14,7 +14,7 @@ The example sentences have been translated from Italian. Since Neapolitan orthog
 
 ## References
 
-* (citation)
+Cerruti, Massimo. 2016. L'italianizzazione dei dialetti: una rassegna. _Quaderns d'Italià_ 21, 63–74.
 
 
 # Changelog
