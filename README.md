@@ -1,11 +1,11 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+This treebank contains example sentences in Neapolitan, translated by a native speaker.
 
 
 # Introduction
 
-...
+The example sentences have been translated from Italian. Since Neapolitan orthography is not standardized, a new way of writing reduced vowels is proposed, to avoid italianization (Cerruti 2016). Reduced vowels are transcribed with a breve diacritic. Neapolitan reduced vowels are hence /ă/, /ĕ/ and /ŏ/, all representing the schwa sound.
 
 
 # Acknowledgments
