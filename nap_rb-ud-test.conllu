@@ -9,6 +9,6 @@
 6	a	_	ADP	_	_	8	case	_	_
 7	la	_	DET	_	_	8	det	_	_
 8	amica	_	NOUN	_	_	3	obl	_	_
-9	sojă	_	ADJ	_	_	8	amod	_	_'SpaceAfter=No'
+9	sojă	_	ADJ	_	_	8	amod	_	_ 'SpaceAfter=No'
 10	.	_	PUNCT	_	_	3	punct	_	_
 
