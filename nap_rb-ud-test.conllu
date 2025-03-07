@@ -3,7 +3,7 @@
 # text_en = The girl wrote a letter to her friend.
 1	'A	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	uaglionă	uagliò	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
-3	scrivettĕ	scrivere	VERB	_	Mood=Ind|Tense=Past|Person=3|VerbForm=Fin	0	root	_	_
+3	scrivettĕ	scrivere	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	'na	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	lettĕră	lettera	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
@@ -16,9 +16,9 @@
 # sent_id = cairo02
 # text = Penzĕ că sta chiuvennĕ.
 # text_en = I think that it is raining.
-1	Penzĕ	pensare	VERB	_	Mood=Ind|Tense=Pres|Person=1|VerbForm=Fin	0	root	_	_
+1	Penzĕ	pensare	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	că	che	SCONJ	_	_	4	mark	_	_
-3	sta	stare	AUX	_	Mood=Ind|Tense=Pres|Person=3|VerbForm=Fin	4	aux	_	_
+3	sta	stare	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	chiuvennĕ	piovere	VERB	_	VerbForm=Ger	1	ccomp	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -27,7 +27,7 @@
 # text_en = He tried to stop smoking and drinking.
 1	Issŏ	egli	PRON	_	Person=3|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	c'	ci	PRON	_	Clitic=Yes	3	expl	_	_
-3	ha	avere	AUX	_	Mood=Ind|Tense=Pres|Person=3	4	aux	_	_
+3	ha	avere	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	pruvatĕ	provare	VERB	_	VerbForm=Part|Tense=Past	0	root	_	_
 5	a	a	ADP	_	_	6	mark	_	_
 6	nun	non	ADV	_	Polarity=Neg	7	advmod	_	_
@@ -42,7 +42,7 @@
 # text_en = Do you want to go?
 1	Tĕ	ti	PRON	_	Person=2|Number=Sing	3	iobj	_	_
 2	nĕ	ne	PRON	_	Clitic=Yes	3	expl	_	_
-3	vuò	volere	VERB	_	Mood=Ind|Tense=Pres|Person=2	0	root	_	_
+3	vuò	volere	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	jí	andare	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -50,7 +50,7 @@
 # text = Samuè, arapĕ 'a fĕnestă!
 # text_en = Sam, open the window!
 1	Samuè	Samuele	PROPN	_	_	2	vocative	_	_
-2	arapĕ	aprire	VERB	_	Mood=Imp|Person=2|Number=Sing	0	root	_	_
+2	arapĕ	aprire	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 3	'a	la	DET	_	Definite=Def|Gender=Fem|Number=Sing	4	det	_	_
 4	fĕnestă	finestra	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	2	punct	_	_
@@ -59,7 +59,7 @@
 # text = Essă facettĕ lavà 'a machină ă'o maritŏ suojŏ.
 # text_en = She made her husband wash the car.
 1	Essă	ella	PRON	_	Person=3|Gender=Fem|Number=Sing	2	nsubj	_	_
-2	facettĕ	fare	VERB	_	Mood=Ind|Tense=Past|Person=3	0	root	_	_
+2	facettĕ	fare	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	lavà	lavare	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	'a	la	DET	_	Definite=Def|Gender=Fem|Number=Sing	5	det	_	_
 5	machină	macchina	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
@@ -77,7 +77,7 @@
 4	casă	casa	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	'e	di	ADP	_	_	6	case	_	_
 6	Pietrŏ	Pietro	PROPN	_	_	4	nmod	_	_
-7	pittajĕ	pittare	VERB	_	Mood=Ind|Tense=Past|Person=3	0	root	_	_
+7	pittajĕ	pittare	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	'o	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing	9	det	_	_
 9	sticcatŏ	sticcato	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10	'e	di	ADP	_	_	11	case	_	_
@@ -99,7 +99,7 @@
 # text = Mariă vincettĕ 'o bbrunzŏ, Pietrŏ l'argientŏ e Giuvannă l'orŏ.
 # text_en = Mary won bronze, Peter silver, and Jane gold.
 1	Mariă	Maria	PROPN	_	_	2	nsubj	_	_
-2	vincettĕ	vincere	VERB	_	Mood=Ind|Tense=Past|Person=3	0	root	_	_
+2	vincettĕ	vincere	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	'o	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing	4	det	_	_
 4	bbrunzŏ	bronzo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 5	,	,	PUNCT	_	_	_	_	_
@@ -130,7 +130,7 @@
 # text = Nun putettĕrĕ scegliĕ a Pietrŏ Ferrarŏ e nemmancŏ a Mariă Marronĕ.
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
 1	Nun	non	ADV	_	Polarity=Neg	2	advmod	_	_
-2	putettĕrĕ	potere	VERB	_	Mood=Ind|Tense=Past|Person=3	0	root	_	_
+2	putettĕrĕ	potere	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	scegliĕ	scegliere	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	a	a	ADP	_	_	6	case	_	_
 5	Pietrŏ	Pietro	PROPN	_	_	6	nmod	_	_
