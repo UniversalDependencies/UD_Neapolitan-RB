@@ -1,14 +1,144 @@
-# sent_id = nativenap.001
+# sent_id = cairo01
 # text = 'A uaglionă scrivettĕ 'na lettĕră all'amica sojă.
-1	'A	_	DET	_	_	2	det	_	_
-2	uaglionă	_	NOUN	_	_	3	nsubj	_	_
-3	scrivettĕ	_	VERB	_	_	0	root	_	_
-4	'na	_	DET	_	_	5	det	_	_
-5	lettĕră	_	NOUN	_	_	3	obj	_	_
+# text_en = The girl wrote a letter to her friend.
+1	'A	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	uaglionă	uagliò	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	scrivettĕ	scrivere	VERB	_	Mood=Ind|Tense=Past|Person=3|VerbForm=Fin	0	root	_	_
+4	'na	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	lettĕră	lettera	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
-6	a	_	ADP	_	_	8	case	_	_
-7	la	_	DET	_	_	8	det	_	_
-8	amica	_	NOUN	_	_	3	obl	_	_
-9	sojă	_	ADJ	_	_	8	amod	_	SpaceAfter=No
-10	.	_	PUNCT	_	_	3	punct	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	la	il	DET	_	_	8	det	_	_
+8	amica	amica	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+9	sojă	suo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo02
+# text = Penzĕ că sta chiuvennĕ.
+# text_en = I think that it is raining.
+1	Penzĕ	pensare	VERB	_	Mood=Ind|Tense=Pres|Person=1|VerbForm=Fin	0	root	_	_
+2	că	che	SCONJ	_	_	4	mark	_	_
+3	sta	stare	AUX	_	Mood=Ind|Tense=Pres|Person=3|VerbForm=Fin	4	aux	_	_
+4	chiuvennĕ	piovere	VERB	_	VerbForm=Ger	1	ccomp	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = cairo03
+# text = Issŏ c'ha pruvatĕ a nun fummà e vvevĕrĕ cchiù.
+# text_en = He tried to stop smoking and drinking.
+1	Issŏ	egli	PRON	_	Person=3|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	c'	ci	PRON	_	Clitic=Yes	3	expl	_	_
+3	ha	avere	AUX	_	Mood=Ind|Tense=Pres|Person=3	4	aux	_	_
+4	pruvatĕ	provare	VERB	_	VerbForm=Part|Tense=Past	0	root	_	_
+5	a	a	ADP	_	_	6	mark	_	_
+6	nun	non	ADV	_	Polarity=Neg	7	advmod	_	_
+7	fummà	fumare	VERB	_	VerbForm=Inf	4	xcomp	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	vvevĕrĕ	bere	VERB	_	VerbForm=Inf	7	conj	_	_
+10	cchiù	più	ADV	_	Degree=Cmp	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo04
+# text = Tĕ nĕ vuò jí?
+# text_en = Do you want to go?
+1	Tĕ	ti	PRON	_	Person=2|Number=Sing	3	iobj	_	_
+2	nĕ	ne	PRON	_	Clitic=Yes	3	expl	_	_
+3	vuò	volere	VERB	_	Mood=Ind|Tense=Pres|Person=2	0	root	_	_
+4	jí	andare	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo05
+# text = Samuè, arapĕ 'a fĕnestă!
+# text_en = Sam, open the window!
+1	Samuè	Samuele	PROPN	_	_	2	vocative	_	_
+2	arapĕ	aprire	VERB	_	Mood=Imp|Person=2|Number=Sing	0	root	_	_
+3	'a	la	DET	_	Definite=Def|Gender=Fem|Number=Sing	4	det	_	_
+4	fĕnestă	finestra	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = cairo06
+# text = Essă facettĕ lavà 'a machină ă'o maritŏ suojŏ.
+# text_en = She made her husband wash the car.
+1	Essă	ella	PRON	_	Person=3|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	facettĕ	fare	VERB	_	Mood=Ind|Tense=Past|Person=3	0	root	_	_
+3	lavà	lavare	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	'a	la	DET	_	Definite=Def|Gender=Fem|Number=Sing	5	det	_	_
+5	machină	macchina	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	ă'o	a il	ADP	_	_	7	case	_	_
+7	maritŏ	marito	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	suojŏ	suo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = cairo07
+# text = 'O vicinŏ 'e casă 'e Pietrŏ pittajĕ 'o sticcatŏ 'e russŏ.
+# text_en = Peter's neighbor painted the fence red.
+1	'O	'o	DET	_	Definite=Def|Gender=Masc|Number=Sing	2	det	_	_
+2	vicinŏ	vicino	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	'e	di	ADP	_	_	4	case	_	_
+4	casă	casa	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	'e	di	ADP	_	_	6	case	_	_
+6	Pietrŏ	Pietro	PROPN	_	_	4	nmod	_	_
+7	pittajĕ	pittare	VERB	_	Mood=Ind|Tense=Past|Person=3	0	root	_	_
+8	'o	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing	9	det	_	_
+9	sticcatŏ	sticcato	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	'e	di	ADP	_	_	11	case	_	_
+11	russŏ	rosso	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = cairo08
+# text = Patĕmŏ è cchiù ccalmŏ r'o tuojŏ.
+# text_en = My dad is cooler than yours.
+1	Patĕmŏ	padre	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	è	enessere	AUX	_	Mood=Ind|Tense=Pres|Person=3	3	cop	_	_
+3	cchiù	più	ADV	_	Degree=Cmp	4	advmod	_	_
+4	ccalmŏ	calmo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+5	r'	da	ADP	_	_	6	case	_	_
+6	tuojŏ	tuo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo09
+# text = Mariă vincettĕ 'o bbrunzŏ, Pietrŏ l'argientŏ e Giuvannă l'orŏ.
+# text_en = Mary won bronze, Peter silver, and Jane gold.
+1	Mariă	Maria	PROPN	_	_	2	nsubj	_	_
+2	vincettĕ	vincere	VERB	_	Mood=Ind|Tense=Past|Person=3	0	root	_	_
+3	'o	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing	4	det	_	_
+4	bbrunzŏ	bronzo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	,	,	PUNCT	_	_	_	_	_
+6	Pietrŏ	Pietro	PROPN	_	_	7	nsubj	_	_
+7	l'	il	DET	_	Definite=Def|Gender=Masc|Number=Sing	8	det	_	_
+8	argientŏ	argento	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	Giuvannă	Giovanna	PROPN	_	_	11	nsubj	_	_
+11	l'	il	DET	_	Definite=Def|Gender=Masc|Number=Sing	12	det	_	_
+12	orŏ	oro	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = cairo10
+# text = Ma l'Iguazy è 'nu paisĕ gruossŏ o piccirillŏ?
+# text_en = Is Iguazu a big or a small country?
+1	Ma	ma	CCONJ	_	_	2	cc	_	_
+2	l'	il	DET	_	Definite=Def|Gender=Masc|Number=Sing	3	det	_	_
+3	Iguazy	Iguazu	PROPN	_	_	5	nsubj	_	_
+4	è	enessere	AUX	_	Mood=Ind|Tense=Pres|Person=3	5	cop	_	_
+5	'nu	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing	6	det	_	_
+6	paisĕ	paese	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	gruossŏ	grosso	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	o	o	CCONJ	_	_	9	cc	_	_
+9	piccirillŏ	piccolo	ADJ	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = cairo11
+# text = Nun putettĕrĕ scegliĕ a Pietrŏ Ferrarŏ e nemmancŏ a Mariă Marronĕ.
+# text_en = Neither Peter Smith nor Mary Brown could be selected.
+1	Nun	non	ADV	_	Polarity=Neg	2	advmod	_	_
+2	putettĕrĕ	potere	VERB	_	Mood=Ind|Tense=Past|Person=3	0	root	_	_
+3	scegliĕ	scegliere	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	Pietrŏ	Pietro	PROPN	_	_	6	nmod	_	_
+6	Ferrarŏ	Ferraro	PROPN	_	_	3	obj	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	nemmancŏ	nemmeno	ADV	_	_	9	advmod	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	Mariă	Maria	PROPN	_	_	11	nmod	_	_
+11	Marronĕ	Marrone	PROPN	_	_	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
 
