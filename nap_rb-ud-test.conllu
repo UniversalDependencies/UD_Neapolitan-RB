@@ -25,22 +25,22 @@
 # sent_id = cairo03
 # text = Issŏ c'ha pruvatĕ a nun fummà e vvevĕrĕ cchiù.
 # text_en = He tried to stop smoking and drinking.
-1	Issŏ	egli	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	c'	ci	PRON	_	_	3	expl	_	SpaceAfter=No
-3	ha	avere	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+1	Issŏ	egli	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	c'	ci	PRON	_	_	4	expl	_	SpaceAfter=No
+3	ha	avé	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	pruvatĕ	provare	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
-5	a	a	ADP	_	_	6	mark	_	_
+5	a	a	ADP	_	_	7	mark	_	_
 6	nun	non	ADV	_	Polarity=Neg	7	advmod	_	_
 7	fummà	fumare	VERB	_	VerbForm=Inf	4	xcomp	_	_
 8	e	e	CCONJ	_	_	9	cc	_	_
 9	vvevĕrĕ	bere	VERB	_	VerbForm=Inf	7	conj	_	_
-10	cchiù	più	ADV	_	Degree=Cmp	9	advmod	_	SpaceAfter=No
+10	cchiù	più	ADV	_	Degree=Cmp	7	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo04
 # text = Tĕ nĕ vuò jí?
 # text_en = Do you want to go?
-1	Tĕ	ti	PRON	_	Person=2|Number=Sing	3	iobj	_	_
+1	Tĕ	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
 2	nĕ	ne	PRON	_	_	3	expl	_	_
 3	vuò	volere	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	jí	andare	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
