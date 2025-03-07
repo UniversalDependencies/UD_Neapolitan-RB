@@ -26,7 +26,7 @@
 # text = Issŏ c'ha pruvatĕ a nun fummà e vvevĕrĕ cchiù.
 # text_en = He tried to stop smoking and drinking.
 1	Issŏ	egli	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	c'	ci	PRON	_	Clitic=Yes	3	expl	_	SpaceAfter=No
+2	c'	ci	PRON	_	_	3	expl	_	SpaceAfter=No
 3	ha	avere	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	pruvatĕ	provare	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
 5	a	a	ADP	_	_	6	mark	_	_
@@ -41,7 +41,7 @@
 # text = Tĕ nĕ vuò jí?
 # text_en = Do you want to go?
 1	Tĕ	ti	PRON	_	Person=2|Number=Sing	3	iobj	_	_
-2	nĕ	ne	PRON	_	Clitic=Yes	3	expl	_	_
+2	nĕ	ne	PRON	_	_	3	expl	_	_
 3	vuò	volere	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	jí	andare	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
