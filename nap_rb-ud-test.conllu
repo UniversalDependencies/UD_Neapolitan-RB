@@ -49,11 +49,12 @@
 # sent_id = cairo05
 # text = Samuè, arapĕ 'a fĕnestă!
 # text_en = Sam, open the window!
-1	Samuè	Samuele	PROPN	_	_	2	vocative	_	_
-2	arapĕ	aprire	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
-3	'a	la	DET	_	Definite=Def|Gender=Fem|Number=Sing	4	det	_	_
-4	fĕnestă	finestra	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
-5	!	!	PUNCT	_	_	2	punct	_	_
+1	Samuè	Samuele	PROPN	_	_	3	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	arapĕ	aprire	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
+4	'a	la	DET	_	Definite=Def|Gender=Fem|Number=Sing	5	det	_	_
+5	fĕnestă	finestra	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo06
 # text = Essă facettĕ lavà 'a machină ă'o maritŏ suojŏ.
