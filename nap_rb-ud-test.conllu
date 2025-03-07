@@ -59,13 +59,13 @@
 # sent_id = cairo06
 # text = Essă facettĕ lavà 'a machină ă'o maritŏ suojŏ.
 # text_en = She made her husband wash the car.
-1	Essă	ella	PRON	_	Person=3|Gender=Fem|Number=Sing	2	nsubj	_	_
+1	Essă	ella	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	facettĕ	fare	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	lavà	lavare	VERB	_	VerbForm=Inf	2	xcomp	_	_
-4	'a	la	DET	_	Definite=Def|Gender=Fem|Number=Sing	5	det	_	_
+4	'a	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	machină	macchina	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6	ă'o	a il	ADP	_	_	7	case	_	_
-7	maritŏ	marito	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+7	maritŏ	marito	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 8	suojŏ	suo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
