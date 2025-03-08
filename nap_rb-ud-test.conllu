@@ -188,7 +188,7 @@
 7	fratĕ	fratello	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
 8	sulamentĕ	soltanto	ADV	_	_	10	advmod	_	_
 9	'na	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	biciclettă	bicicletta	NOUN	_	Gender=Fem|Number=Sing	7	orphan	_	_
+10	biciclettă	bicicletta	NOUN	_	Gender=Fem|Number=Sing	7	orphan	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo16
