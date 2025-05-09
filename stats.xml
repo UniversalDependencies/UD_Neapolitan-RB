@@ -5,35 +5,85 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1</sentences><tokens>9</tokens><words>10</words><fused>1</fused></total>
+    <total><sentences>20</sentences><tokens>197</tokens><words>199</words><fused>2</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>1</sentences><tokens>9</tokens><words>10</words><fused>1</fused></test>
+    <test><sentences>20</sentences><tokens>197</tokens><words>199</words><fused>2</fused></test>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="10" /><!-- 'A, 'na, ., a, amica, la, lettĕră, scrivettĕ, sojă, uaglionă -->
-  <fusions unique="1" /><!-- all' -->
+  <lemmas unique="103" /><!-- il, ., a, essĕ, avé, di, e, Pietro, non, un, ,, ?, Maria, egli, ella -->
+  <forms unique="122" /><!-- ., 'e, a, 'a, 'o, e, Pietrŏ, l', nun, ,, ?, 'na, Essă, Mariă, issŏ -->
+  <fusions unique="2" /><!-- all', ă'o -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="6">
-    <tag name="ADJ">1</tag><!-- _ -->
-    <tag name="ADP">1</tag><!-- _ -->
-    <tag name="DET">3</tag><!-- _ -->
-    <tag name="NOUN">3</tag><!-- _ -->
-    <tag name="PUNCT">1</tag><!-- _ -->
-    <tag name="VERB">1</tag><!-- _ -->
+  <tags unique="12">
+    <tag name="ADJ">8</tag><!-- suo, calmo, francese, grosso, piccolo, rosso, veloce -->
+    <tag name="ADP">15</tag><!-- a, di, da, per -->
+    <tag name="ADV">14</tag><!-- non, più, assai, dietro, ieri, nemmeno, poi, quando, soltanto -->
+    <tag name="AUX">13</tag><!-- essĕ, avé -->
+    <tag name="CCONJ">11</tag><!-- e, ma, o -->
+    <tag name="DET">24</tag><!-- il, un, quello, questa -->
+    <tag name="NOUN">26</tag><!-- lettera, macchina, amica, argento, bicicletta, bronzo, camera, capello, capitale, casa -->
+    <tag name="PRON">17</tag><!-- egli, ella, ci, si, che, chi, il, lo, ne, ti -->
+    <tag name="PROPN">14</tag><!-- Pietro, Maria, Ferraro, Giovanna, Iguazu, Marrone, Parigi, Samuele -->
+    <tag name="PUNCT">24</tag><!-- ., ,, ?, ! -->
+    <tag name="SCONJ">2</tag><!-- che, perché -->
+    <tag name="VERB">31</tag><!-- fare, pensare, scrivere, venire, abbracciare, accunciare, andare, aprire, bere, comprare -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="0">
+  <feats unique="27">
+    <feat name="Definite" value="Def" upos="DET">17</feat><!-- 'a, 'o, l', 'e, la -->
+    <feat name="Definite" value="Ind" upos="DET">5</feat><!-- 'na, 'nu, na -->
+    <feat name="Degree" value="Cmp" upos="ADV">3</feat><!-- cchiù, assajĕ -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">37</feat><!-- 'a, 'na, Essă, Mariă, lettĕră, machină, 'Sta, Giuvannă, Marronĕ, amica -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">41</feat><!-- 'o, Pietrŏ, l', issŏ, 'e, 'nu, Ferrarŏ, Iguazy, Patĕmŏ, argientŏ -->
+    <feat name="Mood" value="Imp" upos="VERB">1</feat><!-- arapĕ -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">23</feat><!-- è, so, Penzĕ, accattajĕ, avia, criscettĕ, currevĕ, facettĕ, ha, hannĕ -->
+    <feat name="Mood" value="Sub" upos="AUX">2</feat><!-- afossĕ, avissĕ -->
+    <feat name="Number" value="Plur" upos="DET,NOUN">2</feat><!-- 'e, capillĕ -->
+    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">78</feat><!-- 'a, 'o, Pietrŏ, l', 'na, Essă, Mariă, issŏ, lettĕră, machină -->
+    <feat name="Person" value="1" upos="VERB">1</feat><!-- Penzĕ -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">5</feat><!-- Tĕ, arapĕ, pienzĕ, stajĕ, vuò -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">28</feat><!-- Essă, issŏ, è, so, accattajĕ, afossĕ, avia, avissĕ, criscettĕ, currevĕ -->
+    <feat name="Polarity" value="Neg" upos="ADV">5</feat><!-- nun -->
+    <feat name="PronType" value="Art" upos="DET">22</feat><!-- 'a, 'o, 'na, l', 'e, 'nu, la, na -->
+    <feat name="PronType" value="Dem" upos="DET">2</feat><!-- 'Sta, chillu -->
+    <feat name="PronType" value="Ind" upos="PRON">1</feat><!-- n'ată -->
+    <feat name="PronType" value="Int" upos="ADV,PRON">3</feat><!-- Chĕ, Quannŏ, chi -->
+    <feat name="PronType" value="Prs" upos="PRON">8</feat><!-- Essă, issŏ, Tĕ, l' -->
+    <feat name="Reflex" value="Yes" upos="PRON">2</feat><!-- s' -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">2</feat><!-- avia, currevĕ -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">15</feat><!-- abbracciatĕ, accattajĕ, afossĕ, asciutĕ, avissĕ, criscettĕ, facettĕ, ha, pittajĕ, pruvatĕ -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">12</feat><!-- è, so, Penzĕ, hannĕ, pienzĕ, sta, stajĕ, tenĕnĕ, vuò -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">26</feat><!-- è, so, Penzĕ, accattajĕ, afossĕ, arapĕ, avia, avissĕ, criscettĕ, currevĕ -->
+    <feat name="VerbForm" value="Ger" upos="VERB">2</feat><!-- chiuvennĕ, guaddannĕ -->
+    <feat name="VerbForm" value="Inf" upos="VERB">8</feat><!-- accuncià, fummà, jí, lavà, scegliĕ, stà, vvevĕrĕ, vĕnì -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">8</feat><!-- abbracciatĕ, asciutĕ, avutŏ, distribbuită, fattŏ, pruvatĕ, riuscitŏ, scrittŏ -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="8">
-    <dep name="amod">1</dep>
-    <dep name="case">1</dep>
-    <dep name="det">3</dep>
-    <dep name="nsubj">1</dep>
-    <dep name="obj">1</dep>
-    <dep name="obl">1</dep>
-    <dep name="punct">1</dep>
-    <dep name="root">1</dep>
+  <deps unique="25">
+    <dep name="acl">1</dep>
+    <dep name="advcl">1</dep>
+    <dep name="advmod">15</dep>
+    <dep name="amod">4</dep>
+    <dep name="appos">1</dep>
+    <dep name="aux">10</dep>
+    <dep name="case">11</dep>
+    <dep name="cc">11</dep>
+    <dep name="ccomp">1</dep>
+    <dep name="conj">11</dep>
+    <dep name="cop">3</dep>
+    <dep name="det">24</dep>
+    <dep name="expl">4</dep>
+    <dep name="flat">2</dep>
+    <dep name="iobj">1</dep>
+    <dep name="mark">6</dep>
+    <dep name="nmod">3</dep>
+    <dep name="nsubj">14</dep>
+    <dep name="obj">12</dep>
+    <dep name="obl">9</dep>
+    <dep name="orphan">3</dep>
+    <dep name="punct">24</dep>
+    <dep name="root">20</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">7</dep>
   </deps>
 </treebank>
