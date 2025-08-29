@@ -19,6 +19,8 @@ Cerruti, Massimo. 2016. L'italianizzazione dei dialetti: una rassegna. _Quaderns
 
 # Changelog
 
+* 2025-08-29
+  * Major syntax revision (@ellepannitto and @harisont)
 * 2021-11-15 v2.9
   * Initial release in Universal Dependencies.
 
