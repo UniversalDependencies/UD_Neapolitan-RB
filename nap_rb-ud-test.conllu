@@ -3,14 +3,14 @@
 # text_en = The girl wrote a letter to her friend.
 1	'A	'o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	uaglionă	uaglionă	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
-3	scrivettĕ	scrivere	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	'na	nu	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	scrivettĕ	scrivĕ	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	'na	'nu	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	lettĕră	lettĕră	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
-6	’a	a	ADP	_	_	8	case	_	_
+6	’a	'a	ADP	_	_	8	case	_	_
 7	la	'o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	amica	amica	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
-9	sojă	suojŏ	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+9	sojă	suojŏ	ADJ	_	Gender=Fem|Number=Sing	8	amod:poss	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo02
@@ -19,14 +19,14 @@
 1	Penzĕ	penzà	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	că	că	SCONJ	_	_	4	mark	_	_
 3	sta	stà	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	chiuvennĕ	chiòvere	VERB	_	VerbForm=Ger	1	ccomp	_	SpaceAfter=No
+4	chiuvennĕ	chiovĕ	VERB	_	VerbForm=Ger	1	ccomp	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = cairo03
 # text = Issŏ c'ha pruvatĕ a nun fummà e vvevĕrĕ cchiù.
 # text_en = He tried to stop smoking and drinking.
 1	Issŏ	Issŏ	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	c'	ce	PRON	_	PronType=Prs	4	expl	_	SpaceAfter=No
+2	c'	cĕ	PRON	_	_	4	expl	_	SpaceAfter=No
 3	ha	avé	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	pruvatĕ	pruvà	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
 5	a	a	ADP	_	_	7	mark	_	_
@@ -38,18 +38,18 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo04
-# text = Tĕ nĕ vuò jí?
+# text = Tĕ nĕ vuò jì?
 # text_en = Do you want to go?
 1	Tĕ	Tĕ	PRON	_	Number=Sing|Person=2|PronType=Prs	3	expl	_	_
-2	nĕ	nĕ	PRON	_	PronType=Prs	3	expl	_	_
-3	vuò	volé	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	jí	jire	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+2	nĕ	nĕ	PRON	_	_	3	expl	_	_
+3	vuò	vulé	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	jì	jì	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo05
 # text = Samuè, arapĕ 'a fĕnestă!
 # text_en = Sam, open the window!
-1	Samuè	Samuele	PROPN	_	_	3	vocative	_	SpaceAfter=No
+1	Samuè	Samuelĕ	PROPN	_	_	3	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	arapĕ	arapì	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 4	'a	'o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -79,7 +79,7 @@
 3	'e	'e	ADP	_	_	4	case	_	_
 4	casă	casă	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	'e	'e	ADP	_	_	6	case	_	_
-6	Pietrŏ	Pietro	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Pietrŏ	Pietrŏ	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 7	pittajĕ	pittà	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	'o	'o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	sticcatŏ	sticcatŏ	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -90,23 +90,22 @@
 # sent_id = cairo08
 # text = Patĕmŏ è cchiù ccalmŏ r'o tuojŏ.
 # text_en = My dad is cooler than yours.
-# tags = clitic?
 1-2	Patĕmŏ	_	_	_	_	_	_	_	_
 1	Patĕ	Patĕ	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-2	mŏ	mŏ	ADJ	_	Gender=Masc|Number=Sing|Poss=Yes	1	amod	_	_
+2	mŏ	mŏ	ADJ	_	Gender=Masc|Number=Sing|Poss=Yes	1	amod:poss	_	_
 3	è	essĕ	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	cchiù	cchiù	ADV	_	Degree=Cmp	5	advmod	_	_
 5	ccalmŏ	ccalmŏ	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-6	r	d’	ADP	_	_	8	case	_	SpaceAfter=No
+6	r	r	ADP	_	_	8	case	_	SpaceAfter=No
 7	'o	'o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	tuojŏ	tuojŏ	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	obl	_	SpaceAfter=No
+8	tuojŏ	tuojŏ	PRON	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo09
-# text = Mariă vincettĕ 'o bbrunzŏ, Pietrŏ l'argientŏ e Giuvannă l'orŏ.
+# text = Mariă vincettĕ 'o bbrunzŏ, Pietrŏ l'argientŏ e Giuvanna l'orŏ.
 # text_en = Mary won bronze, Peter silver, and Jane gold.
 1	Mariă	Mariă	PROPN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
-2	vincettĕ	vincere	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	vincettĕ	vincĕ	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	'o	'o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	bbrunzŏ	bbrunzŏ	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -114,17 +113,17 @@
 7	l'	'o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	argientŏ	argientŏ	NOUN	_	Gender=Masc|Number=Sing	6	orphan	_	_
 9	e	e	CCONJ	_	_	10	cc	_	_
-10	Giuvannă	Giuvannă	PROPN	_	Gender=Fem|Number=Sing	2	conj	_	_
+10	Giuvanna	Giuvanna	PROPN	_	Gender=Fem|Number=Sing	2	conj	_	_
 11	l'	'o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	orŏ	orŏ	NOUN	_	Gender=Masc|Number=Sing	10	orphan	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo10
-# text = Ma l'Iguazy è 'nu paisĕ gruossŏ o piccirillŏ?
+# text = Ma l'Iguazu è 'nu paisĕ gruossŏ o piccirillŏ?
 # text_en = Is Iguazu a big or a small country?
 1	Ma	ma	CCONJ	_	_	6	cc	_	_
 2	l'	'o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
-3	Iguazy	Iguazy	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Iguazu	Iguazu	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 4	è	essĕ	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	'nu	'nu	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	paisĕ	paisĕ	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -138,7 +137,7 @@
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
 1	Nun	nun	ADV	_	Polarity=Neg	3	advmod	_	_
 2	putettĕrĕ	puté	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
-3	scegliĕ	scegliere	VERB	_	VerbForm=Inf	0	root	_	_
+3	scegliĕ	scegliĕ	VERB	_	VerbForm=Inf	0	root	_	_
 4	a	a	ADP	_	_	5	case	_	_
 5	Pietrŏ	Pietrŏ	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	Ferrarŏ	Ferrarŏ	PROPN	_	Gender=Masc|Number=Sing	5	flat	_	_
@@ -153,13 +152,13 @@
 # text = Nun tenĕnĕ ideă 'e chi l'avissĕ scrittŏ.
 # text_en = They have no idea who wrote it.
 1	Nun	non	ADV	_	Polarity=Neg	2	advmod	_	_
-2	tenĕnĕ	tenere	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ideă	idea	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
-4	'e	di	ADP	_	_	8	mark	_	_
+2	tenĕnĕ	tené	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ideă	ideă	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	'e	'e	ADP	_	_	8	mark	_	_
 5	chi	chi	PRON	_	PronType=Int	8	nsubj	_	_
-6	l'	'o	PRON	_	PronType=Prs	8	obj	_	SpaceAfter=No
+6	l'	'o	PRON	_	_	8	obj	_	SpaceAfter=No
 7	avissĕ	avé	AUX	_	Mood=Sub|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
-8	scrittŏ	scrivere	VERB	_	VerbForm=Part	3	acl	_	SpaceAfter=No
+8	scrittŏ	scrivĕ	VERB	_	VerbForm=Part	3	acl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo13
@@ -184,13 +183,13 @@
 # text_en = He bought a car but his brother just a bike.
 1	Issŏ	issŏ	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	accattajĕ	accattà	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	'na	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	'na	'nu	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	machină	machină	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 5	ma	ma	CCONJ	_	_	7	cc	_	_
 6	'o	'o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	fratĕ	fratĕ	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
 8	sulamentĕ	sulamentĕ	ADV	_	_	10	advmod	_	_
-9	'na	nu	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	'na	'nu	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	biciclettă	biciclettă	NOUN	_	Gender=Fem|Number=Sing	7	orphan	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -200,7 +199,7 @@
 1	Pietrŏ	Pietrŏ	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Mariă	Mariă	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	_
-4	s'	si	PRON	_	PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
+4	s'	si	PRON	_	Reflex=Yes	6	obj	_	SpaceAfter=No
 5	hannĕ	avé	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	abbracciatĕ	abbraccià	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
 7	e	e	CCONJ	_	_	10	cc	_	_
@@ -217,19 +216,19 @@
 # text = Essă s'afossĕ avutŏ accuncià 'e capillĕ, ma pĕ na raggionĕ o n'ată nun l'avia fattŏ chillu juornŏ.
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
 1	Essă	essă	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-2	s'	si	PRON	_	PronType=Prs|Reflex=Yes	5	expl	_	SpaceAfter=No
+2	s'	si	PRON	_	Reflex=Yes	5	expl	_	SpaceAfter=No
 3	afossĕ	avé	AUX	_	Mood=Sub|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 4	avutŏ	avé	AUX	_	VerbForm=Part	5	aux	_	_
-5	accuncià	accunciare	VERB	_	VerbForm=Inf	0	root	_	_
+5	accuncià	accuncià	VERB	_	VerbForm=Inf	0	root	_	_
 6	'e	'o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-7	capillĕ	capillo	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+7	capillĕ	capillŏ	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	19	punct	_	_
 9	ma	ma	CCONJ	_	_	19	cc	_	_
 10	pĕ	pĕ	ADP	_	_	12	case	_	_
-11	na	nu	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	na	'nu	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	raggionĕ	raggionĕ	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
 13	o	o	CCONJ	_	_	15	cc	_	_
-14	n'	nu	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	SpaceAfter=No
+14	n'	'nu	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	SpaceAfter=No
 15	ată	ată	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	12	conj	_	_
 16	nun	non	ADV	_	Polarity=Neg	19	advmod	_	_
 17	l'	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
@@ -242,16 +241,16 @@
 # sent_id = cairo18
 # text = Nun cĕ so riuscitŏ a stà arretĕ pĕcché issŏ currevĕ assajĕ velocĕ.
 # text_en = I wasn't able to keep up, because he ran too fast.
-1	Nun	non	ADV	_	Polarity=Neg	4	advmod	_	_
-2	cĕ	cĕ	PRON	_	PronType=Prs	4	expl	_	_
+1	Nun	nun	ADV	_	Polarity=Neg	4	advmod	_	_
+2	cĕ	cĕ	PRON	_	_	4	expl	_	_
 3	so	essĕ	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	riuscitŏ	riuscire	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+4	riuscitŏ	riuscì	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
 5	a	a	ADP	_	_	6	mark	_	_
 6	stà	stà	VERB	_	VerbForm=Inf	4	xcomp	_	_
 7	arretĕ	arretĕ	ADV	_	_	6	advmod	_	_
 8	pĕcché	pĕcché	SCONJ	_	_	10	mark	_	_
 9	issŏ	issŏ	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-10	currevĕ	córrere	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+10	currevĕ	corrĕ	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
 11	assajĕ	assajĕ	ADV	_	Degree=Cmp	12	advmod	_	_
 12	velocĕ	velocĕ	ADJ	_	Gender=Masc|Number=Sing	10	advmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
@@ -259,22 +258,22 @@
 # sent_id = cairo19
 # text = 'Sta lettĕră è 'e Pietrŏ e vvĕnettĕ distribbuită ajerĕ.
 # text_en = This letter is from Peter and it was delivered yesterday.
-1	'Sta	questa	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+1	'Sta	'sta	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	lettĕră	lettĕră	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	è	essĕ	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	'e	'e	ADP	_	_	5	case	_	_
 5	Pietrŏ	Pietrŏ	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	e	e	CCONJ	_	_	7	cc	_	_
 7	vvĕnettĕ	venì	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
-8	distribbuită	distribuire	VERB	_	VerbForm=Part	5	conj	_	_
-9	ajerĕ	ieri	ADV	_	_	8	advmod	_	SpaceAfter=No
+8	distribbuită	distribbuì	VERB	_	VerbForm=Part	5	conj	_	_
+9	ajerĕ	ajerĕ	ADV	_	_	8	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo20
 # text = Essă criscettĕ a Ppariggĕ, 'a capitalĕ francesĕ.
 # text_en = She grew up in Paris, the capital of France.
 1	Essă	essă	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	criscettĕ	créscere	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	criscettĕ	créscĕ	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	a	a	ADP	_	_	4	case	_	_
 4	Ppariggĕ	Ppariggĕ	PROPN	Gender=Masc|Number=Sing	_	2	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
