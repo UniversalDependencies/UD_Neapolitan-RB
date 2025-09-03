@@ -36,7 +36,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Basile, Rodolfo
+Contributors: Basile, Rodolfo; Zeman, Daniel; Pannitto, Ludovica; Masciolini, Arianna
 Contributing: here
 Contact: rodolfo.basile@ut.ee
 ===============================================================================
