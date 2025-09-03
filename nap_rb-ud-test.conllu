@@ -25,7 +25,7 @@
 # sent_id = cairo03
 # text = Issŏ c'ha pruvatĕ a nun fummà e vvevĕrĕ cchiù.
 # text_en = He tried to stop smoking and drinking.
-1	Issŏ	Issŏ	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+1	Issŏ	issŏ	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	c'	cĕ	PRON	_	_	4	expl	_	SpaceAfter=No
 3	ha	avé	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	pruvatĕ	pruvà	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
@@ -40,7 +40,7 @@
 # sent_id = cairo04
 # text = Tĕ nĕ vuò jì?
 # text_en = Do you want to go?
-1	Tĕ	Tĕ	PRON	_	Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+1	Tĕ	tĕ	PRON	_	Number=Sing|Person=2|PronType=Prs	3	expl	_	_
 2	nĕ	nĕ	PRON	_	_	3	expl	_	_
 3	vuò	vulé	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	jì	jì	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
@@ -59,7 +59,7 @@
 # sent_id = cairo06
 # text = Essă facettĕ lavà 'a machină ă'o maritŏ suojŏ.
 # text_en = She made her husband wash the car.
-1	Essă	Essă	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+1	Essă	essă	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	facettĕ	fà	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	lavà	lavà	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	'a	'o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -91,7 +91,7 @@
 # text = Patĕmŏ è cchiù ccalmŏ r'o tuojŏ.
 # text_en = My dad is cooler than yours.
 1-2	Patĕmŏ	_	_	_	_	_	_	_	_
-1	Patĕ	Patĕ	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+1	Patĕ	patĕ	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	mŏ	mŏ	ADJ	_	Gender=Masc|Number=Sing|Poss=Yes	1	amod:poss	_	_
 3	è	essĕ	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	cchiù	cchiù	ADV	_	Degree=Cmp	5	advmod	_	_
@@ -151,7 +151,7 @@
 # sent_id = cairo12
 # text = Nun tenĕnĕ ideă 'e chi l'avissĕ scrittŏ.
 # text_en = They have no idea who wrote it.
-1	Nun	non	ADV	_	Polarity=Neg	2	advmod	_	_
+1	Nun	nun	ADV	_	Polarity=Neg	2	advmod	_	_
 2	tenĕnĕ	tené	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ideă	ideă	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 4	'e	'e	ADP	_	_	8	mark	_	_
@@ -164,7 +164,7 @@
 # sent_id = cairo13
 # text = Chĕ stajĕ guaddannĕ?
 # text_en = What are you looking at?
-1	Chĕ	Chĕ	PRON	_	PronType=Int	3	obj	_	_
+1	Chĕ	chĕ	PRON	_	PronType=Int	3	obj	_	_
 2	stajĕ	stà	AUX	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	guaddannĕ	guardà	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	3	punct	_	_
@@ -172,7 +172,7 @@
 # sent_id = cairo14
 # text = Quannŏ pienzĕ 'e vĕnì?
 # text_en = When do you think you can come?
-1	Quannŏ	Quannŏ	ADV	_	PronType=Int	4	advmod	_	_
+1	Quannŏ	quannŏ	ADV	_	PronType=Int	4	advmod	_	_
 2	pienzĕ	penzà	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	'e	'e	ADP	_	_	4	mark	_	_
 4	vĕnì	venì	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
