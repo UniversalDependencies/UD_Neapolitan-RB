@@ -30,6 +30,7 @@ Cerruti, Massimo. 2016. L'italianizzazione dei dialetti: una rassegna. _Quaderns
 Data available since: UD v2.9
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
