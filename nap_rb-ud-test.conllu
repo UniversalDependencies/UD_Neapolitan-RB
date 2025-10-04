@@ -26,7 +26,7 @@
 # text = Issŏ c'ha pruvatĕ a nun fummà e vvevĕrĕ cchiù.
 # text_en = He tried to stop smoking and drinking.
 1	Issŏ	issŏ	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	c'	cĕ	PRON	_	_	4	expl	_	SpaceAfter=No
+2	c'	cĕ	PRON	_	PronType=Dem	4	expl	_	SpaceAfter=No
 3	ha	avé	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	pruvatĕ	pruvà	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
 5	a	a	ADP	_	_	7	mark	_	_
@@ -41,7 +41,7 @@
 # text = Tĕ nĕ vuò jì?
 # text_en = Do you want to go?
 1	Tĕ	tĕ	PRON	_	Number=Sing|Person=2|PronType=Prs	3	expl	_	_
-2	nĕ	nĕ	PRON	_	_	3	expl	_	_
+2	nĕ	nĕ	PRON	_	PronType=Dem	3	expl	_	_
 3	vuò	vulé	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	jì	jì	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
@@ -98,7 +98,7 @@
 5	ccalmŏ	ccalmŏ	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 6	r	r	ADP	_	_	8	case	_	SpaceAfter=No
 7	'o	'o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	tuojŏ	tuojŏ	PRON	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	tuojŏ	tuojŏ	PRON	_	Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo09
@@ -156,7 +156,7 @@
 3	ideă	ideă	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 4	'e	'e	ADP	_	_	8	mark	_	_
 5	chi	chi	PRON	_	PronType=Int	8	nsubj	_	_
-6	l'	'o	PRON	_	_	8	obj	_	SpaceAfter=No
+6	l'	'o	PRON	_	Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
 7	avissĕ	avé	AUX	_	Mood=Sub|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	scrittŏ	scrivĕ	VERB	_	VerbForm=Part	3	acl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
@@ -199,7 +199,7 @@
 1	Pietrŏ	Pietrŏ	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Mariă	Mariă	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	_
-4	s'	si	PRON	_	Reflex=Yes	6	obj	_	SpaceAfter=No
+4	s'	si	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
 5	hannĕ	avé	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	abbracciatĕ	abbraccià	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
 7	e	e	CCONJ	_	_	10	cc	_	_
@@ -216,7 +216,7 @@
 # text = Essă s'afossĕ avutŏ accuncià 'e capillĕ, ma pĕ na raggionĕ o n'ată nun l'avia fattŏ chillu juornŏ.
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
 1	Essă	essă	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-2	s'	si	PRON	_	Reflex=Yes	5	expl	_	SpaceAfter=No
+2	s'	si	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	expl	_	SpaceAfter=No
 3	afossĕ	avé	AUX	_	Mood=Sub|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 4	avutŏ	avé	AUX	_	VerbForm=Part	5	aux	_	_
 5	accuncià	accuncià	VERB	_	VerbForm=Inf	0	root	_	_
@@ -242,7 +242,7 @@
 # text = Nun cĕ so riuscitŏ a stà arretĕ pĕcché issŏ currevĕ assajĕ velocĕ.
 # text_en = I wasn't able to keep up, because he ran too fast.
 1	Nun	nun	ADV	_	Polarity=Neg	4	advmod	_	_
-2	cĕ	cĕ	PRON	_	_	4	expl	_	_
+2	cĕ	cĕ	PRON	_	PronType=Dem	4	expl	_	_
 3	so	essĕ	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	riuscitŏ	riuscì	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
 5	a	a	ADP	_	_	6	mark	_	_
