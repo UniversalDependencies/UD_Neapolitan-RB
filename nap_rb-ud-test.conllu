@@ -10,7 +10,7 @@
 6	’a	'a	ADP	_	_	8	case	_	_
 7	la	'o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	amica	amica	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
-9	sojă	suojŏ	ADJ	_	Gender=Fem|Number=Sing	8	amod:poss	_	SpaceAfter=No
+9	sojă	suojŏ	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo02
@@ -92,7 +92,7 @@
 # text_en = My dad is cooler than yours.
 1-2	Patĕmŏ	_	_	_	_	_	_	_	_
 1	Patĕ	patĕ	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-2	mŏ	mŏ	ADJ	_	Gender=Masc|Number=Sing|Poss=Yes	1	amod:poss	_	_
+2	mŏ	mŏ	ADJ	_	Gender=Masc|Number=Sing|Poss=Yes	1	amod	_	_
 3	è	essĕ	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	cchiù	cchiù	ADV	_	Degree=Cmp	5	advmod	_	_
 5	ccalmŏ	ccalmŏ	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
