@@ -1,4 +1,5 @@
 # sent_id = cairo01
+# parallel_id = cairo/1
 # text = 'A uaglionă scrivettĕ 'na lettĕră all'amica sojă.
 # text_en = The girl wrote a letter to her friend.
 1	'A	'o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
@@ -14,6 +15,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo02
+# parallel_id = cairo/2
 # text = Penzĕ că sta chiuvennĕ.
 # text_en = I think that it is raining.
 1	Penzĕ	penzà	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -23,6 +25,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = cairo03
+# parallel_id = cairo/3
 # text = Issŏ c'ha pruvatĕ a nun fummà e vvevĕrĕ cchiù.
 # text_en = He tried to stop smoking and drinking.
 1	Issŏ	issŏ	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
@@ -38,6 +41,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo04
+# parallel_id = cairo/4
 # text = Tĕ nĕ vuò jì?
 # text_en = Do you want to go?
 1	Tĕ	tĕ	PRON	_	Number=Sing|Person=2|PronType=Prs	3	expl	_	_
@@ -47,6 +51,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo05
+# parallel_id = cairo/5
 # text = Samuè, arapĕ 'a fĕnestă!
 # text_en = Sam, open the window!
 1	Samuè	Samuelĕ	PROPN	_	_	3	vocative	_	SpaceAfter=No
@@ -57,6 +62,7 @@
 6	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo06
+# parallel_id = cairo/6
 # text = Essă facettĕ lavà 'a machină ă'o maritŏ suojŏ.
 # text_en = She made her husband wash the car.
 1	Essă	essă	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -72,6 +78,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo07
+# parallel_id = cairo/7
 # text = 'O vicinŏ 'e casă 'e Pietrŏ pittajĕ 'o sticcatŏ 'e russŏ.
 # text_en = Peter's neighbor painted the fence red.
 1	'O	'o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
@@ -88,6 +95,7 @@
 12	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = cairo08
+# parallel_id = cairo/8
 # text = Patĕmŏ è cchiù ccalmŏ r'o tuojŏ.
 # text_en = My dad is cooler than yours.
 1-2	Patĕmŏ	_	_	_	_	_	_	_	_
@@ -102,6 +110,7 @@
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo09
+# parallel_id = cairo/9
 # text = Mariă vincettĕ 'o bbrunzŏ, Pietrŏ l'argientŏ e Giuvanna l'orŏ.
 # text_en = Mary won bronze, Peter silver, and Jane gold.
 1	Mariă	Mariă	PROPN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
@@ -119,6 +128,7 @@
 13	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo10
+# parallel_id = cairo/10
 # text = Ma l'Iguazu è 'nu paisĕ gruossŏ o piccirillŏ?
 # text_en = Is Iguazu a big or a small country?
 1	Ma	ma	CCONJ	_	_	6	cc	_	_
@@ -133,6 +143,7 @@
 10	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo11
+# parallel_id = cairo/11
 # text = Nun putettĕrĕ scegliĕ a Pietrŏ Ferrarŏ e nemmancŏ a Mariă Marronĕ.
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
 1	Nun	nun	ADV	_	Polarity=Neg	3	advmod	_	_
@@ -149,6 +160,7 @@
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo12
+# parallel_id = cairo/12
 # text = Nun tenĕnĕ ideă 'e chi l'avissĕ scrittŏ.
 # text_en = They have no idea who wrote it.
 1	Nun	nun	ADV	_	Polarity=Neg	2	advmod	_	_
@@ -162,6 +174,7 @@
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo13
+# parallel_id = cairo/13
 # text = Chĕ stajĕ guaddannĕ?
 # text_en = What are you looking at?
 1	Chĕ	chĕ	PRON	_	PronType=Int	3	obj	_	_
@@ -170,6 +183,7 @@
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo14
+# parallel_id = cairo/14
 # text = Quannŏ pienzĕ 'e vĕnì?
 # text_en = When do you think you can come?
 1	Quannŏ	quannŏ	ADV	_	PronType=Int	4	advmod	_	_
@@ -179,6 +193,7 @@
 5	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo15
+# parallel_id = cairo/15
 # text = Issŏ accattajĕ 'na machină ma 'o fratĕ sulamentĕ 'na biciclettă.
 # text_en = He bought a car but his brother just a bike.
 1	Issŏ	issŏ	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -194,6 +209,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo16
+# parallel_id = cairo/16
 # text = Pietrŏ e Mariă s'hannĕ abbracciatĕ e ppo' so asciutĕ 'a foră 'a cammără.
 # text_en = Peter and Mary hugged each other and then left the room.
 1	Pietrŏ	Pietrŏ	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -213,6 +229,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo17
+# parallel_id = cairo/17
 # text = Essă s'afossĕ avutŏ accuncià 'e capillĕ, ma pĕ na raggionĕ o n'ată nun l'avia fattŏ chillu juornŏ.
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
 1	Essă	essă	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -239,6 +256,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo18
+# parallel_id = cairo/18
 # text = Nun cĕ so riuscitŏ a stà arretĕ pĕcché issŏ currevĕ assajĕ velocĕ.
 # text_en = I wasn't able to keep up, because he ran too fast.
 1	Nun	nun	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -256,6 +274,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo19
+# parallel_id = cairo/19
 # text = 'Sta lettĕră è 'e Pietrŏ e vvĕnettĕ distribbuită ajerĕ.
 # text_en = This letter is from Peter and it was delivered yesterday.
 1	'Sta	'sta	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
@@ -270,6 +289,7 @@
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo20
+# parallel_id = cairo/20
 # text = Essă criscettĕ a Ppariggĕ, 'a capitalĕ francesĕ.
 # text_en = She grew up in Paris, the capital of France.
 1	Essă	essă	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
