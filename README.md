@@ -19,6 +19,8 @@ Cerruti, Massimo. 2016. L'italianizzazione dei dialetti: una rassegna. _Quaderns
 
 # Changelog
 
+* 2025-08-29
+  * Major syntax revision (@ellepannitto and @harisont)
 * 2021-11-15 v2.9
   * Initial release in Universal Dependencies.
 
@@ -28,13 +30,14 @@ Cerruti, Massimo. 2016. L'italianizzazione dei dialetti: una rassegna. _Quaderns
 Data available since: UD v2.9
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: cairo
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Basile, Rodolfo
+Contributors: Basile, Rodolfo; Zeman, Daniel; Pannitto, Ludovica; Masciolini, Arianna
 Contributing: here
 Contact: rodolfo.basile@ut.ee
 ===============================================================================
